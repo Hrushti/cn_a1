@@ -11,7 +11,7 @@ c.connect(('localhost', port))
 
 # client_dir, the folder where all files will be downloaded
 # to/uploaded from the client side, this directory is fixed.
-client_dir = 'C:/Users/hrush/Documents/Acads/Sem_7/cn/assignments/cn_a1/p1/client/'        
+client_dir = os.getcwd()        
 
 while True:
 	inputs = input().split(' ')
