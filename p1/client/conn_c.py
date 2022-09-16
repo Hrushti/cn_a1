@@ -41,6 +41,7 @@ while True:
 	elif command == 'dwd':
 		# should only contain name of file, with extension, not subfolders
 		filename = inputs[1]
+		encryptmode = '-pt'
 		try:
 			encryptmode = inputs[2]
 		except:
