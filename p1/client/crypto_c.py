@@ -1,8 +1,11 @@
 # functions for encrypting and decrypting files
 import os
 
+def plain_text(file):
+    return
+
 # transpose (reverse)
-def transpose_encode_decode(file):
+def transpose(file):
     curr_file = file.split('.')
     f1 = open(curr_file[0] + '1.' + curr_file[1], 'w')
     f2 = open(file, 'r')
